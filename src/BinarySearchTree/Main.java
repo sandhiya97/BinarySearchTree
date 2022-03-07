@@ -2,7 +2,7 @@ package BinarySearchTree;
 
 public class Main {
 
-	 /**
+	/**
      * Main method for manipulation linkedList
      * @param args - Default Java param (Not used)
      */
@@ -30,6 +30,8 @@ public class Main {
         binarySearchTree.add(67);
 
         System.out.println("Size of tree is " + binarySearchTree.getSize() + ".");
+
+        binarySearchTree.search(2);
 
     }
 }
